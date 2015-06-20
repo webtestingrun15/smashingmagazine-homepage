@@ -435,6 +435,40 @@ th {
   box-sizing: border-box;
 }
 
-.clearfix {
-  overflow: auto;
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
 }
+
+/**
+*
+* =Navbar
+*
+**/
+.menu-network {
+    float:left;
+    width: 10%;
+}
+
+.menu-network > li {
+    list-style: none;
+}
+
+.current {
+    height: 96px;
+    background: #A9A9A9;
+}
+
+.section {
+    height: 69px;
+    background: #DCDCDC;
+}
+
+.social {
+    background: #808080;
+    width: 166px;
+    height: 23px;
+    margin: 0 auto;
+}
+
