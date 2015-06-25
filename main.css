@@ -524,3 +524,19 @@ aside {
 .adds-list > .double {
     width: 88%;
 }
+
+/*newsletter*/
+.newsletter {
+    width: 80%;
+    height: 283px;
+    background: gray;
+    margin: 0 auto;
+}
+
+/*books*/
+.books {
+    margin: 0 auto;
+    width: 80%;
+    height: 816px;
+    background: gray;
+}
