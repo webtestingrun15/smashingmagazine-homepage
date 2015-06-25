@@ -488,6 +488,22 @@ main {
 
 aside {
     order: 3;
-    background: #696969;
     width: 20%;
+}
+
+
+/*adds*/
+.adds {
+    height: 652px;
+}
+
+.adds-list > li {
+    width: 40%;
+    height: 125px;
+    background: #696969;
+    display: inline-block;
+}
+
+.adds-list > .double {
+    width: 81%;
 }
