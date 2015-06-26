@@ -425,7 +425,8 @@ th {
 }
 
 body {
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
 }
 /*aside,
 button,
@@ -475,8 +476,26 @@ ul {
 main {
     order: 2;
     margin-top: 5.9em;
-    background: gray;
     width: 70%;
+}
+
+.center {
+    display: flex;
+    margin-top: 0.65%;
+}
+/*center tags*/
+
+.tags {
+    background: gray;
+    width: 20%;
+    height: 1291px;
+}
+/*content*/
+
+.content {
+    width: 80%;
+    height: 10301px;
+    background: gray;
 }
 /**
 *
@@ -489,7 +508,6 @@ aside {
     width: 20%;
     margin-top: 4em;
 }
-
 /*search*/
 
 .search {
@@ -506,7 +524,6 @@ aside {
     border-radius: 0 .5em .5em 0;
     margin-left: 208px;
 }
-
 /*adds*/
 
 .adds {
@@ -524,16 +541,16 @@ aside {
 .adds-list > .double {
     width: 88%;
 }
-
 /*newsletter*/
+
 .newsletter {
     width: 80%;
     height: 283px;
     background: gray;
     margin: 0 auto;
 }
-
 /*books*/
+
 .books {
     margin: 0 auto;
     width: 80%;
@@ -541,31 +558,67 @@ aside {
     background: gray;
 }
 /*separate entry*/
-.separate-entry{
+
+.separate-entry {
     background: gray;
     margin: 29px auto;
     width: 80%;
     height: 162px;
 }
 /*large adds*/
-.lg-ad  {
+
+.lg-ad {
     background: gray;
     margin: 5px auto;
     width: 80%;
     height: 162px;
 }
 /*job board*/
-.job-board{
+
+.job-board {
     background: gray;
     margin: 5px auto;
     width: 80%;
     height: 517px;
 }
 /*tall add*/
+
 .tall-add {
-  background: gray;
-  margin: 26px 38px;
-  width: 42%;
-  height: 400px;
-  position: relative
+    background: gray;
+    margin: 26px 38px;
+    width: 42%;
+    height: 400px;
+    position: relative;
+}
+/**
+*
+* =Footer
+*
+**/
+
+footer {
+    order: 3;
+    margin: 50px auto;
+}
+/*footer block links*/
+
+.fps {
+    display: flex;
+}
+
+.fp {
+    background: gray;
+    width: 359px;
+    height: 146px;
+    margin-right: 1%;
+    margin-left: 2.5%;
+}
+
+/*bottom site information*/
+.stmt {
+    background: gray;
+    width: 404px;
+    height: 77px;
+    margin-top: 66px;
+    margin-left: 24px;
 }
