@@ -540,3 +540,32 @@ aside {
     height: 816px;
     background: gray;
 }
+/*separate entry*/
+.separate-entry{
+    background: gray;
+    margin: 29px auto;
+    width: 80%;
+    height: 162px;
+}
+/*large adds*/
+.lg-ad  {
+    background: gray;
+    margin: 5px auto;
+    width: 80%;
+    height: 162px;
+}
+/*job board*/
+.job-board{
+    background: gray;
+    margin: 5px auto;
+    width: 80%;
+    height: 517px;
+}
+/*tall add*/
+.tall-add {
+  background: gray;
+  margin: 26px 38px;
+  width: 42%;
+  height: 400px;
+  position: relative
+}
