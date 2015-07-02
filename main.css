@@ -517,7 +517,6 @@ article {
 /*heading*/
 
 .heading1 {
-    background: #36454F;
     width: 675px;
     height: 56px;
     margin-top: 1em;
@@ -557,7 +556,6 @@ article {
 .paragraph {
     width: 767px;
     height: 190px;
-    background: #696969;
     margin: 50px 0;
 }
 /* article image*/
@@ -573,7 +571,6 @@ article {
 .button {
     width: 127px;
     height: 40px;
-    background: #778899;
     border-radius: .3125em;
     border: 0.08em solid rgba(0, 0, 0, .1);
     margin: 2em 0;
