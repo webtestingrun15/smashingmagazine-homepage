@@ -428,8 +428,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 /*aside,
 button,
@@ -448,8 +448,8 @@ ul {
 .menu-network {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     width: 10%;
 }
 
@@ -459,7 +459,7 @@ ul {
 
 .current {
     height: 96px;
-    background: #A9A9A9;
+    background: #708090;
 }
 
 .section {
@@ -468,7 +468,7 @@ ul {
 }
 
 .social {
-    background: #808080;
+    background: #C0C0C0;
     width: 166px;
     height: 23px;
     margin: 0 auto;
@@ -482,8 +482,8 @@ ul {
 main {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
     margin-top: 5.9em;
     width: 70%;
 }
@@ -498,16 +498,92 @@ main {
 /*center tags*/
 
 .tags {
-    background: gray;
+    background: #696969;
     width: 20%;
     height: 1291px;
+}
+
+article {
+    padding-left: 11%;
+    text-align: center;
+    border-bottom: .3125em solid gray;
 }
 /*content*/
 
 .content {
     width: 80%;
-    height: 10301px;
-    background: gray;
+    height: 10001px;
+}
+/*heading*/
+
+.heading1 {
+    background: #36454F;
+    width: 675px;
+    height: 56px;
+    margin-top: 1em;
+}
+/*subheading*/
+
+.subheading1 {
+    background: #A9A9A9;
+    width: 254px;
+    height: 53px;
+    margin: 10px 0;
+}
+/*info heading*/
+
+.infoheading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px 0 30px 0;
+}
+
+.date {
+    background: #A9A9A9;
+    width: 193px;
+    height: 44px;
+    margin-right: 2em;
+}
+
+.type {
+    background: #A9A9A9;
+    width: 154px;
+    height: 44px;
+}
+/*paragraph*/
+
+.paragraph {
+    width: 767px;
+    height: 190px;
+    background: #696969;
+    margin: 50px 0;
+}
+/* article image*/
+
+.article-image {
+    width: 499px;
+    height: 330px;
+    background: #778899;
+    margin: 50px 0;
+}
+/*button*/
+
+.button {
+    width: 127px;
+    height: 40px;
+    background: #778899;
+    border-radius: .3125em;
+    border: 0.08em solid rgba(0, 0, 0, .1);
+    margin: 2em 0;
+}
+
+.article-ad {
+    background: #36454F;
+    width: 540px;
+    height: 150px;
+    margin: 5em;
 }
 /**
 *
@@ -518,8 +594,8 @@ main {
 aside {
     -webkit-box-ordinal-group: 4;
     -webkit-order: 3;
-        -ms-flex-order: 3;
-            order: 3;
+    -ms-flex-order: 3;
+    order: 3;
     width: 20%;
     margin-top: 4em;
 }
@@ -548,7 +624,7 @@ aside {
 .adds-list > li {
     width: 43%;
     height: 125px;
-    background: #696969;
+    background: #36454F;
     display: inline-block;
     margin: 20px 5px 0 0;
 }
@@ -561,7 +637,7 @@ aside {
 .newsletter {
     width: 80%;
     height: 283px;
-    background: gray;
+    background: #DCDCDC;
     margin: 0 auto;
 }
 /*books*/
@@ -570,12 +646,12 @@ aside {
     margin: 0 auto;
     width: 80%;
     height: 816px;
-    background: gray;
+    background: #DCDCDC;
 }
 /*separate entry*/
 
 .separate-entry {
-    background: gray;
+    background: #DCDCDC;
     margin: 29px auto;
     width: 80%;
     height: 162px;
@@ -583,7 +659,7 @@ aside {
 /*large adds*/
 
 .lg-ad {
-    background: gray;
+    background: #36454F;
     margin: 5px auto;
     width: 80%;
     height: 162px;
@@ -591,7 +667,7 @@ aside {
 /*job board*/
 
 .job-board {
-    background: gray;
+    background: #DCDCDC;
     margin: 5px auto;
     width: 80%;
     height: 517px;
@@ -599,11 +675,45 @@ aside {
 /*tall add*/
 
 .tall-add {
-    background: gray;
+    background: #36454F;
     margin: 26px 38px;
     width: 42%;
     height: 400px;
     position: relative;
+}
+/*page buttons*/
+
+.pgs {
+    width: 984px;
+    height: 141px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 2em;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.one {
+    background: #778899;
+    width: 61px;
+    height: 35px;
+    margin-right: 2em;
+}
+
+.cur {
+    background: #DCDCDC;
+    width: 61px;
+    height: 35px;
+    margin-right: 2em;
+}
+
+.next {
+    margin-left: 3em;
+    background: #708090;
+    width: 66px;
+    height: 35px;
 }
 /**
 *
@@ -614,8 +724,8 @@ aside {
 footer {
     -webkit-box-ordinal-group: 4;
     -webkit-order: 3;
-        -ms-flex-order: 3;
-            order: 3;
+    -ms-flex-order: 3;
+    order: 3;
     margin: 50px auto;
 }
 /*footer block links*/
@@ -628,16 +738,16 @@ footer {
 }
 
 .fp {
-    background: gray;
+    background: #A9A9A9;
     width: 359px;
     height: 146px;
     margin-right: 1%;
     margin-left: 2.5%;
 }
-
 /*bottom site information*/
+
 .stmt {
-    background: gray;
+    background: #DCDCDC;
     width: 404px;
     height: 77px;
     margin-top: 66px;
