@@ -430,7 +430,7 @@ body {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    font: serif;
+    font-family: serif;
 }
 /*aside,
 button,
@@ -516,11 +516,15 @@ article {
     height: 10001px;
 }
 /*heading*/
-
-.heading1 {
+/*.heading1 {
     width: 675px;
     height: 56px;
     margin-top: 1em;
+}*/
+
+article > h2 {
+    text-align: left;
+    font-size: 2.3em;
 }
 /*subheading*/
 
@@ -553,11 +557,16 @@ article {
     height: 44px;
 }
 /*paragraph*/
-
-.paragraph {
+/*.paragraph {
     width: 767px;
     height: 190px;
     margin: 50px 0;
+}*/
+
+article > p {
+    font-size: 1.4em;
+    line-height: 1.3em;
+    text-align: left;
 }
 /* article image*/
 
@@ -577,6 +586,8 @@ article {
     margin: 2em 0;
     padding-top: 10px;
     background: #778899;
+    font-weight: bold;
+    color: #fff;
 }
 
 .article-ad {
