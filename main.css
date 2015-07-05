@@ -575,6 +575,8 @@ article {
     border-radius: .3125em;
     border: 0.08em solid rgba(0, 0, 0, .1);
     margin: 2em 0;
+    padding-top: 10px;
+    background: #778899;
 }
 
 .article-ad {
