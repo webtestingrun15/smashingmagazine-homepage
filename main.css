@@ -430,7 +430,7 @@ body {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    font-family: serif;
+    font-family: 'Merriweather', serif;
 }
 /*aside,
 button,
@@ -524,7 +524,8 @@ article {
 
 article > h2 {
     text-align: left;
-    font-size: 2.3em;
+    font-size: 2.2em;
+    font-weight: 700;
 }
 /*subheading*/
 
@@ -565,7 +566,7 @@ article > h2 {
 
 article > p {
     font-size: 1.4em;
-    line-height: 1.3em;
+    line-height: 1.4em;
     text-align: left;
 }
 /* article image*/
