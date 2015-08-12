@@ -512,8 +512,7 @@ article {
 /*content*/
 
 .content {
-    width: 80%;
-    height: 9001px;
+    max-width: 80%;
 }
 /*heading*/
 /*.heading1 {
@@ -696,7 +695,7 @@ aside {
 /*page buttons*/
 
 .pgs {
-    width: 984px;
+    max-width: 984px;
     height: 141px;
     display: -webkit-box;
     display: -webkit-flex;
